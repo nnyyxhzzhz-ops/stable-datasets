@@ -1,0 +1,470 @@
+{
+  "final_evaluations": [
+    {
+      "correct": 396,
+      "count": 656,
+      "path": "clean-final/eth80/B0-converged/seed42/lejepa/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 370,
+      "count": 656,
+      "path": "clean-final/eth80/B0-converged/seed42/random/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 411,
+      "count": 656,
+      "path": "clean-final/eth80/B0-converged/seed43/lejepa/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 379,
+      "count": 656,
+      "path": "clean-final/eth80/B0-converged/seed43/random/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 431,
+      "count": 656,
+      "path": "clean-final/eth80/B0-converged/seed44/lejepa/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 377,
+      "count": 656,
+      "path": "clean-final/eth80/B0-converged/seed44/random/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 393,
+      "count": 656,
+      "path": "clean-final/eth80/B1/seed42/lejepa/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 370,
+      "count": 656,
+      "path": "clean-final/eth80/B1/seed42/random/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 415,
+      "count": 656,
+      "path": "clean-final/eth80/B1/seed43/lejepa/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 379,
+      "count": 656,
+      "path": "clean-final/eth80/B1/seed43/random/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 406,
+      "count": 656,
+      "path": "clean-final/eth80/B1/seed44/lejepa/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 377,
+      "count": 656,
+      "path": "clean-final/eth80/B1/seed44/random/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 301,
+      "count": 1018,
+      "path": "clean-final/freiburg/B0-converged/seed42/lejepa/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 216,
+      "count": 1018,
+      "path": "clean-final/freiburg/B0-converged/seed42/random/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 319,
+      "count": 1018,
+      "path": "clean-final/freiburg/B0-converged/seed43/lejepa/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 197,
+      "count": 1018,
+      "path": "clean-final/freiburg/B0-converged/seed43/random/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 297,
+      "count": 1018,
+      "path": "clean-final/freiburg/B0-converged/seed44/lejepa/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 193,
+      "count": 1018,
+      "path": "clean-final/freiburg/B0-converged/seed44/random/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 408,
+      "count": 1018,
+      "path": "clean-final/freiburg/B2/seed42/lejepa/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 274,
+      "count": 1018,
+      "path": "clean-final/freiburg/B2/seed42/random/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 417,
+      "count": 1018,
+      "path": "clean-final/freiburg/B2/seed43/lejepa/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 247,
+      "count": 1018,
+      "path": "clean-final/freiburg/B2/seed43/random/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 405,
+      "count": 1018,
+      "path": "clean-final/freiburg/B2/seed44/lejepa/results.json",
+      "prediction_replay": true
+    },
+    {
+      "correct": 267,
+      "count": 1018,
+      "path": "clean-final/freiburg/B2/seed44/random/results.json",
+      "prediction_replay": true
+    }
+  ],
+  "original_baseline_files_unchanged": 107,
+  "pixel_clean_policy_sha256": "9a486c07518acc353fbf3578f654103b7b1daf97d56a2365d52e3b9ed17ffa56",
+  "selection_lock_sha256": "813a30275189634d3668234496db2f3793de4bae0a76296e2cfc09a4f1194a4a",
+  "status": "passed",
+  "training": {
+    "training/eth80/B1/seed42": {
+      "checkpoints": [
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 20,
+          "sha256": "37221c3b702d5b8d32bb50fc6549e0b04c530fd7ad1f9ea7138145280f5c490c"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 50,
+          "sha256": "46a32bf30c531c4194e710e364fe1d53a313f08c4d5e0e881f0dc218e2a5a157"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 100,
+          "sha256": "051740f9783c45653e9853a68936108069bcb362389d0988e0988d60e133a7e8"
+        }
+      ],
+      "config": {
+        "batch_size": 32,
+        "candidate": "B1",
+        "dataset": "eth80",
+        "device": "cpu",
+        "epochs": 100,
+        "freiburg_config": "split0",
+        "image_size": 64,
+        "learning_rate": 0.0005,
+        "local_size": 32,
+        "n_slices": 64,
+        "num_workers": 2,
+        "seed": 42,
+        "split_seed": 42,
+        "threads": 4,
+        "validation_fraction": 0.2,
+        "warmup_epochs": 2
+      },
+      "initial_encoder_exactly_matches_baseline": true,
+      "steps": 6100
+    },
+    "training/eth80/B1/seed43": {
+      "checkpoints": [
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 20,
+          "sha256": "ff812a59d61997d388cdd40a902ae33ed46e8ff5577512ce6ea03e422d67bfe3"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 50,
+          "sha256": "1336d1092f9ad0a13696d89fceb733df53d14bfc5e3dae29a34b04c49c41c078"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 100,
+          "sha256": "a150a29ae9e4ea2e723b5e8349b367dc626c2d8dea03c4a7a205549dc2ff576a"
+        }
+      ],
+      "config": {
+        "batch_size": 32,
+        "candidate": "B1",
+        "dataset": "eth80",
+        "device": "cpu",
+        "epochs": 100,
+        "freiburg_config": "split0",
+        "image_size": 64,
+        "learning_rate": 0.0005,
+        "local_size": 32,
+        "n_slices": 64,
+        "num_workers": 2,
+        "seed": 43,
+        "split_seed": 42,
+        "stop_after": 100,
+        "threads": 4,
+        "validation_fraction": 0.2,
+        "warmup_epochs": 2
+      },
+      "initial_encoder_exactly_matches_baseline": true,
+      "steps": 6100
+    },
+    "training/eth80/B1/seed44": {
+      "checkpoints": [
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 20,
+          "sha256": "489145f69e2db2ff0f86b9d41d7d07c897381a709ae306f9f2f0b16bd4aed798"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 50,
+          "sha256": "4bdc777d29891fa74e2508a7303d829cfc95ffb64a182a161019171de2b598db"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 100,
+          "sha256": "99e1e0bbbc6e8e143afb61a36e3fe15c870cfcb10dc7f7779ed120df181a3164"
+        }
+      ],
+      "config": {
+        "batch_size": 32,
+        "candidate": "B1",
+        "dataset": "eth80",
+        "device": "cpu",
+        "epochs": 100,
+        "freiburg_config": "split0",
+        "image_size": 64,
+        "learning_rate": 0.0005,
+        "local_size": 32,
+        "n_slices": 64,
+        "num_workers": 2,
+        "seed": 44,
+        "split_seed": 42,
+        "stop_after": 100,
+        "threads": 4,
+        "validation_fraction": 0.2,
+        "warmup_epochs": 2
+      },
+      "initial_encoder_exactly_matches_baseline": true,
+      "steps": 6100
+    },
+    "training/eth80/B2/seed42": {
+      "checkpoints": [
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 20,
+          "sha256": "d5793f940420bb2060ad4369197d02301fd80a3642ceff5d37f7e11a2f20b989"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 50,
+          "sha256": "53dfe60a3f1f8c31e8c8f8c5da9e01c7b0f818d5cf7b160dac41d50c5180f5d9"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 100,
+          "sha256": "1f79594ec6090267e23955bb74482b097cf46e57a7a5ff5eb4e09f53a87c6bf1"
+        }
+      ],
+      "config": {
+        "batch_size": 32,
+        "candidate": "B2",
+        "dataset": "eth80",
+        "device": "cpu",
+        "epochs": 100,
+        "freiburg_config": "split0",
+        "image_size": 128,
+        "learning_rate": 0.0005,
+        "local_size": 64,
+        "n_slices": 64,
+        "num_workers": 2,
+        "seed": 42,
+        "split_seed": 42,
+        "threads": 4,
+        "validation_fraction": 0.2,
+        "warmup_epochs": 2
+      },
+      "initial_encoder_exactly_matches_baseline": true,
+      "steps": 6100
+    },
+    "training/freiburg/B1/seed42": {
+      "checkpoints": [
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 20,
+          "sha256": "733cee91b04612f4902cb77c9fe53411a25fd5041d70ee5b3d867194d36ff523"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 50,
+          "sha256": "f42484a284a1403e969fe793f392aa3e2741238a76454459afd27ae3bcac7f3c"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 100,
+          "sha256": "dfb00ffb32e4c29dec4cb5a804d08345d74139686b1ab8740b99ff25c45cee0e"
+        }
+      ],
+      "config": {
+        "batch_size": 32,
+        "candidate": "B1",
+        "dataset": "freiburg",
+        "device": "cpu",
+        "epochs": 100,
+        "freiburg_config": "split0",
+        "image_size": 64,
+        "learning_rate": 0.0005,
+        "local_size": 32,
+        "n_slices": 64,
+        "num_workers": 2,
+        "seed": 42,
+        "split_seed": 42,
+        "threads": 4,
+        "validation_fraction": 0.2,
+        "warmup_epochs": 2
+      },
+      "initial_encoder_exactly_matches_baseline": true,
+      "steps": 9800
+    },
+    "training/freiburg/B2/seed42": {
+      "checkpoints": [
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 20,
+          "sha256": "32e28eb131d67d92f05766468b68dc594b82c10ff9042ae1cfaa11b2fe416a41"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 50,
+          "sha256": "43d96c5ad46f0a6af9c171646c6e957a656804e8950679677918b021db132464"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 100,
+          "sha256": "41d535b1430ec89e5ca304e67f9fdcafe0922ee9a6d4a6a4e2068689d6cbab45"
+        }
+      ],
+      "config": {
+        "batch_size": 32,
+        "candidate": "B2",
+        "dataset": "freiburg",
+        "device": "cpu",
+        "epochs": 100,
+        "freiburg_config": "split0",
+        "image_size": 128,
+        "learning_rate": 0.0005,
+        "local_size": 64,
+        "n_slices": 64,
+        "num_workers": 2,
+        "seed": 42,
+        "split_seed": 42,
+        "threads": 4,
+        "validation_fraction": 0.2,
+        "warmup_epochs": 2
+      },
+      "initial_encoder_exactly_matches_baseline": true,
+      "steps": 9800
+    },
+    "training/freiburg/B2/seed43": {
+      "checkpoints": [
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 20,
+          "sha256": "405875d03cc9953a0f46b8ede50abf378bbcb4c553d9e4182e98bd7a70d25db4"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 50,
+          "sha256": "228f4f4e33d5594346b4a73b6e392fb4fd6cca0c6e136bfe50810e7f3adb6bbe"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 100,
+          "sha256": "6cb4d2b78136af099867af638ccbd1b259939d2513064d19e9f10b70d2b5da15"
+        }
+      ],
+      "config": {
+        "batch_size": 32,
+        "candidate": "B2",
+        "dataset": "freiburg",
+        "device": "cpu",
+        "epochs": 100,
+        "freiburg_config": "split0",
+        "image_size": 128,
+        "learning_rate": 0.0005,
+        "local_size": 64,
+        "n_slices": 64,
+        "num_workers": 2,
+        "seed": 43,
+        "split_seed": 42,
+        "stop_after": 100,
+        "threads": 4,
+        "validation_fraction": 0.2,
+        "warmup_epochs": 2
+      },
+      "initial_encoder_exactly_matches_baseline": true,
+      "steps": 9800
+    },
+    "training/freiburg/B2/seed44": {
+      "checkpoints": [
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 20,
+          "sha256": "3d213dff540c5e4b4be59d61af4e7b2d8c1402d40f3c80ea10d3a1ebf84d3dc8"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 50,
+          "sha256": "a2ed8d1970ec0b493b7680fc1e4b427cf5b160928d86757ad4917adbe24d504f"
+        },
+        {
+          "changed_encoder_tensors": 150,
+          "epoch": 100,
+          "sha256": "064228e070096ace02c0c7e760a96ed468ff66590bfaa3e9cfdf696908d6b128"
+        }
+      ],
+      "config": {
+        "batch_size": 32,
+        "candidate": "B2",
+        "dataset": "freiburg",
+        "device": "cpu",
+        "epochs": 100,
+        "freiburg_config": "split0",
+        "image_size": 128,
+        "learning_rate": 0.0005,
+        "local_size": 64,
+        "n_slices": 64,
+        "num_workers": 2,
+        "seed": 44,
+        "split_seed": 42,
+        "stop_after": 100,
+        "threads": 4,
+        "validation_fraction": 0.2,
+        "warmup_epochs": 2
+      },
+      "initial_encoder_exactly_matches_baseline": true,
+      "steps": 9800
+    }
+  }
+}

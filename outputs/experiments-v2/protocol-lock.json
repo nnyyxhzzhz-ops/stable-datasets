@@ -1,0 +1,54 @@
+{
+  "candidates": [
+    "B0",
+    "B1",
+    "B2"
+  ],
+  "checkpoint_epochs": {
+    "B0": [
+      20
+    ],
+    "B1": [
+      20,
+      50,
+      100
+    ],
+    "B2": [
+      20,
+      50,
+      100
+    ]
+  },
+  "confirmation_seeds": [
+    43,
+    44
+  ],
+  "datasets": [
+    "eth80",
+    "freiburg"
+  ],
+  "development_seed": 42,
+  "new_downloads": false,
+  "new_training_starts": "exact B0 encoder initialization; benchmark states never reused",
+  "probe": {
+    "C": [
+      0.01,
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "C_tie": "smallest C",
+    "class_weight": null,
+    "feature_standardization": "train only, sample std",
+    "max_iter": 5000,
+    "numerical_retry_cap": 20000,
+    "solver": "lbfgs",
+    "tol": 1e-06
+  },
+  "selection": "Per dataset maximize development-seed LeJEPA validation top1, ties prefer earlier epoch then lower global resolution, then B0/B1/B2 order. Preserve B0 if neither extension exceeds its validation top1. Confirmation seeds use fixed candidate and selected checkpoint epoch, without SSL checkpoint reselection.",
+  "source_datasets": "unchanged current loaders; existing processed cache and raw archives only",
+  "status": "locked_before_B1_B2_training_results",
+  "test_policy": "No test features until selection-lock saved. Original B0 test results already known; all follow-ups disclosed as continued evaluation on same holdouts.",
+  "timing_note": "The fixed probe grid was predeclared in the plan; B0 converged-probe validation was in progress when this selection rule was saved. No B1/B2 formal training or validation had run."
+}

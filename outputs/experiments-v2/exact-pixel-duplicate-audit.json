@@ -1,0 +1,265 @@
+{
+  "comparison": "Exact SHA-256 equality of decoded RGB pixel arrays including mode and image dimensions; distinct source IDs only.",
+  "data_splits_or_models_modified": false,
+  "datasets": {
+    "eth80": {
+      "conflicting_label_details": [],
+      "conflicting_label_groups": 0,
+      "cross_split_duplicate_pairs": 0,
+      "cross_split_duplicate_pairs_by_split": {},
+      "decoded_source_images": 3280,
+      "duplicate_details": [],
+      "duplicate_groups": 0,
+      "duplicate_pairs_by_split": {},
+      "images_in_duplicate_groups": 0,
+      "source_archive": "eth80-cropped256.tgz",
+      "source_archive_sha256": "3552a8199bbf011bcc795364496430dbf936816f89b96ddb7a28af67cc6e6c95",
+      "split_manifest": "outputs/experiments/eth80-seed42/splits.json",
+      "split_manifest_sha256": "f3a094559d8b1dc28605b81e59ff8189d3d209288e231352933682c519c1a8aa",
+      "unique_rgb_arrays": 3280
+    },
+    "freiburg": {
+      "conflicting_label_details": [],
+      "conflicting_label_groups": 0,
+      "cross_split_duplicate_pairs": 9,
+      "cross_split_duplicate_pairs_by_split": {
+        "test/train": 5,
+        "test/validation": 3,
+        "train/validation": 1
+      },
+      "decoded_source_images": 4947,
+      "duplicate_details": [
+        {
+          "images": [
+            {
+              "image_id": "SPICES/SPICES0153.png",
+              "label": 8,
+              "split": "test"
+            },
+            {
+              "image_id": "SPICES/SPICES0178.png",
+              "label": 8,
+              "split": "train"
+            }
+          ],
+          "rgb_sha256": "23e41b0794cfbd4f102da14ff7c3f2d39d40cd5a7ea77fc8cb811a285295d938"
+        },
+        {
+          "images": [
+            {
+              "image_id": "SPICES/SPICES0001.png",
+              "label": 8,
+              "split": "test"
+            },
+            {
+              "image_id": "SPICES/SPICES0181.png",
+              "label": 8,
+              "split": "train"
+            }
+          ],
+          "rgb_sha256": "26bba5dd81b44b8dbf87342b8cec1cab4386db54dbee2338640a02832cf0dcc3"
+        },
+        {
+          "images": [
+            {
+              "image_id": "COFFEE/COFFEE0092.png",
+              "label": 14,
+              "split": "validation"
+            },
+            {
+              "image_id": "COFFEE/COFFEE0193.png",
+              "label": 14,
+              "split": "test"
+            }
+          ],
+          "rgb_sha256": "2b2398f195dcac69b3266d3e50821ece8de4b29bcc6cc98c956f700184b8cf8a"
+        },
+        {
+          "images": [
+            {
+              "image_id": "SPICES/SPICES0074.png",
+              "label": 8,
+              "split": "train"
+            },
+            {
+              "image_id": "SPICES/SPICES0180.png",
+              "label": 8,
+              "split": "train"
+            }
+          ],
+          "rgb_sha256": "2dd11b4e3a077a07d8395de2339edd3b20899a5ffed453965d7475192136f8b6"
+        },
+        {
+          "images": [
+            {
+              "image_id": "COFFEE/COFFEE0188.png",
+              "label": 14,
+              "split": "validation"
+            },
+            {
+              "image_id": "COFFEE/COFFEE0190.png",
+              "label": 14,
+              "split": "test"
+            }
+          ],
+          "rgb_sha256": "4d01cf6194af599c064c9b8909fc6c8589744433c191418a27cdb9ee94a83068"
+        },
+        {
+          "images": [
+            {
+              "image_id": "SPICES/SPICES0052.png",
+              "label": 8,
+              "split": "validation"
+            },
+            {
+              "image_id": "SPICES/SPICES0175.png",
+              "label": 8,
+              "split": "train"
+            }
+          ],
+          "rgb_sha256": "641cc6543a6708cb61023802d636184fbd18adacaab589535db1b44ddc229895"
+        },
+        {
+          "images": [
+            {
+              "image_id": "SPICES/SPICES0007.png",
+              "label": 8,
+              "split": "test"
+            },
+            {
+              "image_id": "SPICES/SPICES0169.png",
+              "label": 8,
+              "split": "test"
+            }
+          ],
+          "rgb_sha256": "65345f9173d0edffef6f7f7b4bbfa68afe2e103358d46e9e78e7c44a4953082b"
+        },
+        {
+          "images": [
+            {
+              "image_id": "COFFEE/COFFEE0187.png",
+              "label": 14,
+              "split": "train"
+            },
+            {
+              "image_id": "COFFEE/COFFEE0191.png",
+              "label": 14,
+              "split": "train"
+            }
+          ],
+          "rgb_sha256": "7d94caea6ed7aeb7811131185cf51c8e372648ff20f6c40b12a00cb7d73bbbe9"
+        },
+        {
+          "images": [
+            {
+              "image_id": "SPICES/SPICES0063.png",
+              "label": 8,
+              "split": "test"
+            },
+            {
+              "image_id": "SPICES/SPICES0179.png",
+              "label": 8,
+              "split": "train"
+            }
+          ],
+          "rgb_sha256": "83fceb097c1492319e1f4b3b92d35e3634c27cc53d1f35b6c534e231b7610c35"
+        },
+        {
+          "images": [
+            {
+              "image_id": "SPICES/SPICES0099.png",
+              "label": 8,
+              "split": "train"
+            },
+            {
+              "image_id": "SPICES/SPICES0182.png",
+              "label": 8,
+              "split": "test"
+            }
+          ],
+          "rgb_sha256": "86e90082d522616101bbeb82907baf76a2f569d00ca6bc8b6802dd2497e64424"
+        },
+        {
+          "images": [
+            {
+              "image_id": "COFFEE/COFFEE0111.png",
+              "label": 14,
+              "split": "train"
+            },
+            {
+              "image_id": "COFFEE/COFFEE0192.png",
+              "label": 14,
+              "split": "train"
+            }
+          ],
+          "rgb_sha256": "887f130e534709eff54674411ecd8de6c71151844a9cffdf873e927d87780e2c"
+        },
+        {
+          "images": [
+            {
+              "image_id": "SPICES/SPICES0124.png",
+              "label": 8,
+              "split": "test"
+            },
+            {
+              "image_id": "SPICES/SPICES0177.png",
+              "label": 8,
+              "split": "test"
+            }
+          ],
+          "rgb_sha256": "9e0b74c9a47dcfa874372a73326e6a2650e75ece5c1059e409c846553a7edef5"
+        },
+        {
+          "images": [
+            {
+              "image_id": "COFFEE/COFFEE0129.png",
+              "label": 14,
+              "split": "test"
+            },
+            {
+              "image_id": "COFFEE/COFFEE0189.png",
+              "label": 14,
+              "split": "validation"
+            }
+          ],
+          "rgb_sha256": "afc5303b9b2dc25b08b94324fae6babb8247b4aa0e934019c513e038b81f9e23"
+        },
+        {
+          "images": [
+            {
+              "image_id": "SPICES/SPICES0151.png",
+              "label": 8,
+              "split": "train"
+            },
+            {
+              "image_id": "SPICES/SPICES0176.png",
+              "label": 8,
+              "split": "test"
+            }
+          ],
+          "rgb_sha256": "f4b4d6cc222354f514533d17596bfe77cb403e7674b8e2eec464d52e5c5b143d"
+        }
+      ],
+      "duplicate_groups": 14,
+      "duplicate_pairs_by_split": {
+        "test/test": 2,
+        "test/train": 5,
+        "test/validation": 3,
+        "train/train": 3,
+        "train/validation": 1
+      },
+      "images_in_duplicate_groups": 28,
+      "source_archive": "freiburg_groceries_dataset.tar.gz",
+      "source_archive_sha256": "35c18d03bb6ed057f12a3c5aea0ac5eef9b8e1d5965d1e32142b7d1f1469e3f0",
+      "split_manifest": "outputs/experiments/freiburg-seed42/splits.json",
+      "split_manifest_sha256": "6dcef4e186c3bc84986e6cc072c55e2adb0f2b7b46ea13ab9b0754d1c9665be5",
+      "unique_rgb_arrays": 4933
+    }
+  },
+  "limitations": "This audit does not test perceptual near-duplicates, common physical product instances, or other Freiburg fold memberships.",
+  "network_access_used": false,
+  "scope": "All ETH-80 and Freiburg source images and the original seed42 experimental partitions (Freiburg author split0).",
+  "seconds": 11.374815540999407,
+  "status": "completed",
+  "training_or_classifier_metrics_used": false
+}

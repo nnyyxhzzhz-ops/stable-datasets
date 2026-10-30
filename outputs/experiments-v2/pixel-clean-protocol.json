@@ -1,0 +1,69 @@
+{
+  "datasets": {
+    "eth80": {
+      "counts": {
+        "clean_validation": 656,
+        "official_test": 656,
+        "original_validation": 656,
+        "train": 1968,
+        "unique_unseen_pixels_test": 656,
+        "unseen_pixels_test": 656
+      },
+      "original_split_manifest_sha256": "f3a094559d8b1dc28605b81e59ff8189d3d209288e231352933682c519c1a8aa",
+      "test_noncanonical_duplicate_ids": [],
+      "test_seen_in_train_or_original_validation_ids": [],
+      "test_unique_unseen_excluded_ids": [],
+      "validation_excluded_ids": []
+    },
+    "freiburg": {
+      "counts": {
+        "clean_validation": 785,
+        "official_test": 1018,
+        "original_validation": 786,
+        "train": 3143,
+        "unique_unseen_pixels_test": 1008,
+        "unseen_pixels_test": 1010
+      },
+      "original_split_manifest_sha256": "6dcef4e186c3bc84986e6cc072c55e2adb0f2b7b46ea13ab9b0754d1c9665be5",
+      "test_noncanonical_duplicate_ids": [
+        "SPICES/SPICES0169.png",
+        "SPICES/SPICES0177.png"
+      ],
+      "test_seen_in_train_or_original_validation_ids": [
+        "COFFEE/COFFEE0129.png",
+        "COFFEE/COFFEE0190.png",
+        "COFFEE/COFFEE0193.png",
+        "SPICES/SPICES0001.png",
+        "SPICES/SPICES0063.png",
+        "SPICES/SPICES0153.png",
+        "SPICES/SPICES0176.png",
+        "SPICES/SPICES0182.png"
+      ],
+      "test_unique_unseen_excluded_ids": [
+        "COFFEE/COFFEE0129.png",
+        "COFFEE/COFFEE0190.png",
+        "COFFEE/COFFEE0193.png",
+        "SPICES/SPICES0001.png",
+        "SPICES/SPICES0063.png",
+        "SPICES/SPICES0153.png",
+        "SPICES/SPICES0169.png",
+        "SPICES/SPICES0176.png",
+        "SPICES/SPICES0177.png",
+        "SPICES/SPICES0182.png"
+      ],
+      "validation_excluded_ids": [
+        "SPICES/SPICES0052.png"
+      ]
+    }
+  },
+  "decision_basis": "Decoded source pixels and original split metadata only; no classifier predictions or accuracy were used.",
+  "loaders_and_official_membership_modified": false,
+  "original_protocol_sha256": "8b3c63f28b7b2b61b47f5f23d3533dba7f927a23d2deb7424047bb59053bffe1",
+  "source_pixel_audit_sha256": "2f465626c89220bfeeb0e142ee6679ad0d692ed67119e45f1865824a5fb092d9",
+  "test_rules": {
+    "official": "Retain all author test rows in their original order.",
+    "unique_unseen_pixels": "Additionally retain only the lexicographically first test ID per identical-pixel group.",
+    "unseen_pixels": "Exclude test IDs with an exact RGB match in train or the original validation split."
+  },
+  "validation_rule": "Exclude validation IDs whose exact RGB array also occurs in the training split; keep all training and official test rows."
+}

@@ -1,0 +1,17 @@
+{
+  "changed_encoder_tensors": 150,
+  "declared_schedule_epochs": 100,
+  "dropped_tail_per_epoch": 16,
+  "epochs_completed": 100,
+  "initial_b0_checkpoint_sha256": "5632f1c7f8c6ac74fe272fbe4f33863d1e0c85293859a63f0111dba08318e7cd",
+  "initial_encoder_equal_b0": true,
+  "mode": "train",
+  "parent_peak_rss_bytes": 1419001856,
+  "probe_fitted": false,
+  "ssl_seconds": 1206.424257957995,
+  "status": "completed",
+  "steps": 6100,
+  "steps_per_epoch": 61,
+  "test_images_accessed": false,
+  "train_examples": 1968
+}

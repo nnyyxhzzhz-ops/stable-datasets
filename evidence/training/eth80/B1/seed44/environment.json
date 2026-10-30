@@ -1,0 +1,39 @@
+{
+  "common_sha256": "91b2bb10119f9397181d8eb9d21cb2234b5dc8007c9e924d3f92abc6747df18c",
+  "config_source_sha256": "4fc09d3e29c7e57fe52b1ab5ea749269e8de214eead9af03c13ed555aca5c7cf",
+  "cuda_available": false,
+  "dataset_commit": "c12940ba43981ef3c92250209b57cf65178e74ea",
+  "initial_reference_sha256": "43decd62bcbfe4de32a3b5dda7c5be424c0b45f94384997394c017bc92f7854b",
+  "logical_cpus": 10,
+  "machine": "arm64",
+  "mps_available": true,
+  "network": "blocked",
+  "packages": {
+    "numpy": "2.5.4",
+    "pyarrow": "26.0.0",
+    "scikit-learn": "1.9.1",
+    "stable-datasets": "0.0.0a1",
+    "stable-pretraining": "0.1.9.dev10+gab836bf69",
+    "timm": "1.0.30",
+    "torch": "2.14.1",
+    "torchvision": "0.29.1"
+  },
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "script_sha256": "6118d71a664515c247393c34411dd83592f7115220df73af72f95724527909e5",
+  "source_files_sha256": {
+    "audit_reference.py": "1d99c6ecc8aac72cf876a0fa20462c24b8a17ba7bb2555e54344b20e269dc1e5",
+    "audit_run.py": "f7d2fa76746bf97cf7a3db6b9f00a9ed00408437b344300fe2ab415f505cc0f6",
+    "common.py": "91b2bb10119f9397181d8eb9d21cb2234b5dc8007c9e924d3f92abc6747df18c",
+    "evaluate_frozen.py": "926205a15e850a392142cc00bcd42e9ddc84f17c6521515a949eaabf2c6521e9",
+    "evaluate_pretrained_reference.py": "84e5a099f8fef1c3f01267ec82b5c467b3a0e24ddf5c4fefece260ab39809ba8",
+    "pixel_clean.py": "9c47e651b07d5879eddaf24aada06a068e9cc1180a9d7e8d47bd2ccfa31e5b91",
+    "run_clean_study.py": "82041a46e1aa431ba6ff136bced868063e54988d77b7de2264aa7711895ec3bb",
+    "run_experiment.py": "6118d71a664515c247393c34411dd83592f7115220df73af72f95724527909e5",
+    "run_pretrained_reference_clean.py": "eaeaab801e31406dc7723ba646b61f4baa9c67676333fe33412860e9d1c00f2b",
+    "run_study.py": "70c89883f63938a6a3e7d59f9f3179a7384855eb2a2aab705ee84228af2107b5",
+    "summarize_study.py": "5324cdfc0335a41efcce4881c38a4d2fb20b60df745483a4ea65163d8fa965b3"
+  },
+  "stable_pretraining_commit": "ab836bf699a2be712dfcf980a5eb70d36391e876",
+  "torch_threads": 4
+}
